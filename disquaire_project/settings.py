@@ -29,7 +29,7 @@ if os.environ.get('ENV') == 'PRODUCTION':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['appbenoit.herokuapp.com']
+ALLOWED_HOSTS = ['tenguproject.herokuapp.com']
 
 
 # Application definition
@@ -60,7 +60,7 @@ MIDDLEWARE = [
 
 INTERNAL_IPS = ['127.0.0.1']
 
-ROOT_URLCONF = 'tenguproject.urls'
+ROOT_URLCONF = 'disquaire_project.urls'
 
 TEMPLATES = [
     {
