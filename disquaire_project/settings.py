@@ -60,7 +60,7 @@ MIDDLEWARE = [
 
 INTERNAL_IPS = ['127.0.0.1']
 
-ROOT_URLCONF = 'disquaire_project.urls'
+ROOT_URLCONF = 'tenguproject.urls'
 
 TEMPLATES = [
     {
